@@ -5,6 +5,6 @@ category: manuscripts
 permalink: /publication/mssf
 excerpt: ''
 date: 2024-11-15
-venue: 'Summited to IEEE for possible publication'
-paperurl: 'https://arxiv.org/pdf/2411.15016'
+venue: 'IEEE Transactions on Intelligent Transportation Systems'
+paperurl: 'https://ieeexplore.ieee.org/document/10947638'
 ---
