@@ -1,28 +1,4 @@
-<!DOCTYPE HTML>
-
-<style>
-  .toggle-text {
-    cursor: pointer;
-    display: inline-block;
-    margin-right: 2px;
-    color: #007BFF;
-  }
-
-  .toggle-text.active {
-    font-weight: bold;
-    text-decoration: none;
-    color: #000000;
-  }
-
-  .content {
-    display: none;
-  }
-
-  .content.active {
-    display: block;
-  }
-</style>
-
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -51,7 +27,33 @@
                 <td style="padding:2.5%;width:80%;vertical-align:middle">
                   <p style="text-align:center">
                     <strong>Hongsi Liu</strong>
-                    <!-- <mailto:liuhs3@mail.ustc.edu.cn">liuhs3@mail.ustc.edu.cn</mailto> -->
+                  </p>
+                  <p class="profile-links">
+                    <a class="profile-link" href="https://scholar.google.com/citations?user=9BL2i24AAAAJ&amp;hl=en" aria-label="Google Scholar profile" target="_blank" rel="noopener">
+                      <span class="profile-icon scholar-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                          <path d="M12 3 2 10l10 7 10-7-10-7Z"></path>
+                          <path d="M6.5 13.5V17c0 1.7 2.5 3 5.5 3s5.5-1.3 5.5-3v-3.5L12 17l-5.5-3.5Z"></path>
+                        </svg>
+                      </span>
+                      <span>Google Scholar</span>
+                    </a>
+                    <a class="profile-link" href="https://github.com/EricLiuhhh" aria-label="GitHub profile" target="_blank" rel="noopener">
+                      <span class="profile-icon github-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                          <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.1 3.29 9.4 7.86 10.93.58.11.79-.25.79-.56v-2.02c-3.2.7-3.88-1.38-3.88-1.38-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.08-.12-.29-.52-1.46.11-3.04 0 0 .97-.31 3.17 1.18A10.94 10.94 0 0 1 12 6.19c.98 0 1.96.13 2.88.39 2.2-1.49 3.17-1.18 3.17-1.18.63 1.58.23 2.75.11 3.04.74.8 1.19 1.82 1.19 3.08 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.04c0 .31.21.67.8.56A11.52 11.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path>
+                        </svg>
+                      </span>
+                      <span>GitHub</span>
+                    </a>
+                    <a class="profile-link" href="mailto:liuhs3@mail.ustc.edu.cn" aria-label="Email Hongsi Liu">
+                      <span class="profile-icon email-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                          <path d="M3.5 5h17A1.5 1.5 0 0 1 22 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-17A1.5 1.5 0 0 1 2 17.5v-11A1.5 1.5 0 0 1 3.5 5Zm.75 2.2 7.2 5.4a.9.9 0 0 0 1.1 0l7.2-5.4v-.7H4.25v.7Zm0 2.05v8.25h15.5V9.25l-6.05 4.54a2.78 2.78 0 0 1-3.4 0L4.25 9.25Z"></path>
+                        </svg>
+                      </span>
+                      <span>Email</span>
+                    </a>
                   </p>
                   <p>
                     Hongsi Liu received the B.S. degree in Electronic Information Science and Technology from Sun Yat-sen University, Guangzhou, China, in 2022. He is currently pursuing the Ph.D. degree in Information and Communication Engineering with the Department of Electronic Engineering and Information Science, University of Science and Technology of China, Hefei, China. His research interests include deep learning, autonomous driving, robot, 3D understanding and generation.
@@ -65,7 +67,7 @@
             </tbody>
           </table>
 
-          <div id="contentSelected" class="content active">
+          <div id="contentSelected">
             <table
               style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
               <tbody>
@@ -74,8 +76,8 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/uniscenev2_teaser.png"
                   alt="IEEE Transactions on Pattern Analysis and Machine Intelligence" style="width:100%;max-width:100%"> 
                 </td>
-              <td width="75%" valign="center">
-                <papertitle>Scaling Up Occupancy-centric Driving Scene Generation: Dataset and Method</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">Scaling Up Occupancy-centric Driving Scene Generation: Dataset and Method</span>
                 <br>
                 <a> Bohan Li </a>*,
                 <a> Xin Jin </a>†,
@@ -107,8 +109,8 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/worldlens.png"
                   alt="CVPR" style="width:100%;max-width:100%"> 
                 </td>
-              <td width="75%" valign="center">
-                <papertitle>WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">WorldLens: Full-Spectrum Evaluations of Driving World Models in Real World</span>
                 <br>
                 <a> Ao Liang </a>*,
                 <a> Lingdong Kong </a>*,
@@ -146,8 +148,8 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/mkfusion.png"
                   alt="Knowledge-Based Systems" style="width:100%;max-width:100%"> 
                 </td>
-              <td width="75%" valign="center">
-                <papertitle>MKFusion: Multi-modal knowledge distillation for 4D radar point cloud segmentation in autonomous driving</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">MKFusion: Multi-modal knowledge distillation for 4D radar point cloud segmentation in autonomous driving</span>
                 <br>
                 <a href="https://orcid.org/0009-0007-4326-390X">Yunting Yang</a>*,
                 <a href="http://staff.ustc.edu.cn/~junliu/">Jun Liu</a>†, 
@@ -169,9 +171,9 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/dreamvla.png" alt="Arxiv 2025"
                   style="width:100%;max-width:100%">
               </td>
-              <td width="75%" valign="center">
-                <papertitle>DreamVLA: Dream Comprehensive World Knowledge for Vision-Language-Action Model
-                </papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">DreamVLA: Dream Comprehensive World Knowledge for Vision-Language-Action Model
+                </span>
                 <br>
                 
                 <a>Wenyao Zhang</a>*,
@@ -182,7 +184,7 @@
                 <a href="https://jzhzhang.github.io/">Jiazhao Zhang</a>,
                 <a href="https://runpeidong.web.illinois.edu/">Runpei Dong</a>,
                 <a href="https://jiaweihe.com/">Jiawei He</a>,
-                <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&hl=en">Zhizheng Zhang</a>,
+                <a href="https://scholar.google.com/citations?user=X7M0I8kAAAAJ&amp;hl=en">Zhizheng Zhang</a>,
                 <a href="https://hughw19.github.io/">He Wang</a>,
                 <a href="https://ericyi.github.io/">Li Yi</a>,
                 <a href="https://wenjunzeng.github.io/"> Wenjun Zeng</a>,
@@ -202,8 +204,8 @@
                   alt="ICCV 2025" style="width:100%;max-width:100%"> 
                 </td>
 
-              <td width="75%" valign="center">
-                <papertitle>Hybrid-grained Feature Aggregation with Coare-to-fine Language Guidance for Self-supervised Monocular Depth Estimation</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">Hybrid-grained Feature Aggregation with Coarse-to-fine Language Guidance for Self-supervised Monocular Depth Estimation</span>
                 <br>
                 <a href="https://zhangwenyao1.github.io/">Wenyao Zhang</a>*,
                 <strong>Hongsi Liu</strong>*, 
@@ -232,26 +234,26 @@
                   style="width:100%;max-width:100%">
               </td>
             
-              <td width="75%" valign="center">
-                <papertitle>UniScene: Unified Occupancy-centric Driving Scene Generation</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">UniScene: Unified Occupancy-centric Driving Scene Generation</span>
                 <br>
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=V-YdQiAAAAAJ">Bohan Li</a>*,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=pWLqZnoAAAAJ">Jiazhe Guo</a>*,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=V-YdQiAAAAAJ">Bohan Li</a>*,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=pWLqZnoAAAAJ">Jiazhe Guo</a>*,
                 <strong> Hongsi Liu </strong>*,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=3SIkncUAAAAJ">Yingshuang Zou</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=gdP9StQAAAAJ">Yikang Ding</a>,
-                <a href="https://scholar.google.com/citations?user=PVMQa-IAAAAJ&hl=en&oi=ao">Xiwu Chen</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=3SIkncUAAAAJ">Yingshuang Zou</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=gdP9StQAAAAJ">Yikang Ding</a>,
+                <a href="https://scholar.google.com/citations?user=PVMQa-IAAAAJ&amp;hl=en&amp;oi=ao">Xiwu Chen</a>,
                 <a href="https://zhuhu00.top/">Hu Zhu</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=KeiZBdMAAAAJ">Feiyang Tan</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=KeiZBdMAAAAJ">Feiyang Tan</a>,
                 <a href="https://www.megvii.com/"> Chi Zhang</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=YI0sRroAAAAJ">Tiancai Wang</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=zYI0rysAAAAJ">Shuchang Zhou</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=-wOTCE8AAAAJ">Li Zhang</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=bGn0uacAAAAJ">Xiaojuan Qi</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=ygQznUQAAAAJ">Hao Zhao</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=YI0sRroAAAAJ">Tiancai Wang</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=zYI0rysAAAAJ">Shuchang Zhou</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=-wOTCE8AAAAJ">Li Zhang</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=bGn0uacAAAAJ">Xiaojuan Qi</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=ygQznUQAAAAJ">Hao Zhao</a>,
                 <a href="https://www.megvii.com/">Mu Yang</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=_cUfvYQAAAAJ">Wenjun Zeng</a>,
-                <a href="https://scholar.google.com/citations?hl=zh-CN&user=byaSC-kAAAAJ">Xin Jin</a>.
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=_cUfvYQAAAAJ">Wenjun Zeng</a>,
+                <a href="https://scholar.google.com/citations?hl=zh-CN&amp;user=byaSC-kAAAAJ">Xin Jin</a>.
 
                 <br>
                 <em>
@@ -270,8 +272,8 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/radar_m3net.png"
                   alt="Expert Systems with Applications" style="width:100%;max-width:100%"> 
                 </td>
-              <td width="75%" valign="center">
-                <papertitle>Radar M3-Net: Multi-scale, multi-layer, multi-frame network with a large receptive field for 3D object detection</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">Radar M3-Net: Multi-scale, multi-layer, multi-frame network with a large receptive field for 3D object detection</span>
                 <br>
                 <a href="https://orcid.org/0009-0007-4326-390X">Yunting Yang</a>*,
                 <a href="http://staff.ustc.edu.cn/~junliu/">Jun Liu</a>†, 
@@ -292,8 +294,8 @@
               <td style="padding:20px;width:30%;max-width:30%" align="center"> <img src="images/mssf.png"
                   alt="IEEE Transactions on Intelligent Transportation Systems" style="width:100%;max-width:100%"> 
                 </td>
-              <td width="75%" valign="center">
-                <papertitle>MSSF: A 4D Radar and Camera Fusion Framework With Multi-Stage Sampling for 3D Object Detection in Autonomous Driving</papertitle>
+              <td width="75%" valign="middle">
+                <span class="papertitle">MSSF: A 4D Radar and Camera Fusion Framework With Multi-Stage Sampling for 3D Object Detection in Autonomous Driving</span>
                 <br>
                 <strong>Hongsi Liu</strong>,
                 <a href="http://staff.ustc.edu.cn/~junliu/">Jun Liu</a>†, 
@@ -318,36 +320,7 @@
     </tbody>
   </table>
 
-  <p>
-  <!-- <div class="center" id="clustrmaps-widget" style="width:8%">
-    <script type="text/javascript" id="clstr_globe"
-      src="//clustrmaps.com/globe.js?d=kSH52UUctXHgyZTvsD38_H_styzXoRq6qG_cg4tttWI">& copy; Hongsi Liu </script>
-  </div> -->
-  <br>
-  <div style="text-align:center;"> &copy; Hongsi Liu @ 2025 </div>
-  </p>
-
-  <script>
-    document.getElementById('txtSelected').addEventListener('click', function () {
-      toggleContent('Selected');
-    });
-
-    document.getElementById('txtDate').addEventListener('click', function () {
-      toggleContent('Date');
-    });
-
-    function toggleContent(type) {
-      document.querySelectorAll('.toggle-text').forEach(text => {
-        text.classList.remove('active');
-      });
-      document.querySelectorAll('.content').forEach(content => {
-        content.classList.remove('active');
-      });
-
-      document.getElementById('txt' + type).classList.add('active');
-      document.getElementById('content' + type).classList.add('active');
-    }
-  </script>
+  <div class="footer">&copy; Hongsi Liu @ 2026</div>
 
 </body>
 
